@@ -27,7 +27,7 @@ DelXML="/home/nikhilt/script/xml_new"
 	echo "file is not exist on mention path(/home/nikhilt/script/)  "`date`" " >> $FILENAME
 	fi 
 
-HOST='stockreportsplus.com'
+HOST='stockreplus.com'
 USER='IIFL'
 PASSWD='fl5^nsX%eF'
 
@@ -36,7 +36,7 @@ echo "Start Downloading ZIP Files Via FTP  "`date`" provided by Link reuters"  >
 ftp -in  $HOST  << SCRIPTEND
 user $USER $PASSWD 
 binary
-mget IIFL_META* 
+mget *.zip 
 SCRIPTEND
 exit
 
