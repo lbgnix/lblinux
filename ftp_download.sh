@@ -27,9 +27,9 @@ DelXML="/home/nikhilt/script/xml_new"
 	echo "file is not exist on mention path(/home/nikhilt/script/)  "`date`" " >> $FILENAME
 	fi 
 
-HOST='stockreplus.com'
+HOST='*****.com'
 USER='IIFL'
-PASSWD='fl5^nsX%eF'
+PASSWD='**********'
 
 cd /home/nikhilt/script/
 echo "Start Downloading ZIP Files Via FTP  "`date`" provided by Link reuters"  >>  $FILENAME
