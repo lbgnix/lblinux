@@ -11,15 +11,15 @@
 umask 0
 now=$(date  '+%A %Y-%m-%d %T')
 sENDE="/bin/sendEmail"
-PoSMTP="172.26.3.11:25"
-FEMID="alerts@indiainfoline.com"
-TOID="lalbahadur.vishwakarma@iifl.com"
-TOID="lalbahadur.vishwakarma@iifl.com, nikhil.tembkar@iifl.com, tarun.madaan@iifl.com, nallinie.khandare@iifl.com, dharnidhar.dubey@iifl.com"
+PoSMTP="192.168.112.11:25"
+FEMID="alerts@gmail.com"
+TOID="lalbahadur.vishwakarma@gmail.com"
+TOID="xyz@gmail.com"
 GCPIP=`hostname -I | awk '{print $1}'`
 eGCPHost=`hostname`
 MAILSUB="eNotification  TR StockReport PDF and XML CRON Execution report ${now} Hrs\n\n"
 MSGBODY="Hello Team,\n\n eNotification for TR StockReport PDF and XML CRON ${now} Hrs\n\n"
-ReGards="Regards,\nLALBAHADUR V.\nMobile:- 9619348640"
+ReGards="Regards,\nLALBAHADUR V.\nMobile:- 7867878576"
 
 SUC=""
 
