@@ -14,7 +14,7 @@ sENDE="/bin/sendEmail"
 PoSMTP="172.26.3.11:25"
 FEMID="alerts@indiainfoline.com"
 TOID="lalbahadur.vishwakarma@iifl.com"
-#TOID="lalbahadur.vishwakarma@iifl.com, nikhil.tembkar@iifl.com, tarun.madaan@iifl.com, nallinie.khandare@iifl.com, dharnidhar.dubey@iifl.com"
+#TOID="xyz@gmail.com"
 GCPIP=`hostname -I | awk '{print $1}'`
 eGCPHost=`hostname`
 
