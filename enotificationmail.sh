@@ -11,7 +11,7 @@
 PROCST=$(type -p ps)
 now=$(date  '+%A %Y-%m-%d %T')
 sENDE="/bin/sendEmail"
-PoSMTP="172.26.3.11:25"
+PoSMTP="192.26.3.11:25"
 FEMID="alerts@indiainfoline.com"
 TOID="lalbahadur.vishwakarma@iifl.com"
 #TOID="xyz@gmail.com"
